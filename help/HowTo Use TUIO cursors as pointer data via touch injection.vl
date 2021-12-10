@@ -505,7 +505,7 @@
       </p:NodeReference>
       <Patch Id="BwoZqMSNyZyL2K08wwp6E7">
         <Canvas Id="DJzPAPcW0HZNssTNeo6nnX" CanvasType="Group">
-          <Node Bounds="257,318,91,19" Id="GQHwkpkgtOXNhpt0KT7skr">
+          <Node Bounds="151,346,91,19" Id="GQHwkpkgtOXNhpt0KT7skr">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Manipulating shapes with gestures.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MakeTouchInfos" />
@@ -514,7 +514,7 @@
             <Pin Id="UOihKQqC1kyOYBpQ4O5DJJ" Name="Target Size" Kind="InputPin" />
             <Pin Id="UV26bmJeNOOO3LIyLjg7Kz" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="257,272,85,19" Id="UdWavf9HnqNOMjXS8H5ITl">
+          <Node Bounds="151,300,85,19" Id="UdWavf9HnqNOMjXS8H5ITl">
             <p:NodeReference LastCategoryFullName="IO.TUIO" LastSymbolSource="VL.IO.TUIO.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TUIOClient" />
@@ -532,7 +532,7 @@
             <Pin Id="HWckT8rwgy8N2NVfg479oW" Name="Data Preview" Kind="OutputPin" />
             <Pin Id="BFTTZRV2CcwOdoFoOe9vzr" Name="Is Open" Kind="OutputPin" />
           </Node>
-          <Node Bounds="256,375,79,19" Id="IAF4ojT7DFNPAby33a4ugd">
+          <Node Bounds="151,403,79,19" Id="IAF4ojT7DFNPAby33a4ugd">
             <p:NodeReference LastCategoryFullName="InteractionContext" LastSymbolSource="VL.IO.MultiTouch.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TouchInjector" />
@@ -541,9 +541,9 @@
             <Pin Id="LR2KoiaV9jhMYkXGT0LSAw" Name="Initialized" Kind="OutputPin" />
             <Pin Id="FkKk2gfNBydPs94SrYg6z8" Name="Injecting" Kind="OutputPin" />
           </Node>
-          <Pad Id="L1vGqryz5weQGUO0nirVhb" Comment="Initialized" Bounds="257,430,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Ty0p6QmSqobMWoSvTw7sei" Comment="Injecting" Bounds="382,430,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="LUdZ6ENgTLFP9hFNr0ElyU" Bounds="533,296,500,19" ShowValueBox="true" isIOBox="true" Value="&lt; TUIO data is normalized between 0 and 1 so the client area is needed to scale the values to their actual dimensions">
+          <Pad Id="L1vGqryz5weQGUO0nirVhb" Comment="Initialized" Bounds="153,458,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ty0p6QmSqobMWoSvTw7sei" Comment="Injecting" Bounds="278,458,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="LUdZ6ENgTLFP9hFNr0ElyU" Bounds="370,327,500,19" ShowValueBox="true" isIOBox="true" Value="&lt; TUIO data is normalized between 0 and 1 so the client area is needed to scale the values to their actual dimensions">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -552,7 +552,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JpKw5MothQROC7UzTpjwq6" Comment="Target Size" Bounds="375,279,35,28" ShowValueBox="true" isIOBox="true" Value="1920, 1080">
+          <Pad Id="JpKw5MothQROC7UzTpjwq6" Comment="Target Size" Bounds="269,307,35,28" ShowValueBox="true" isIOBox="true" Value="1920, 1080">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
