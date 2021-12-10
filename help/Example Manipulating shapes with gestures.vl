@@ -663,54 +663,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="659,406,69,19" Id="LUM2e369jm1MKcZFD8tSaD">
-            <p:NodeReference>
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="TouchRectangle" />
-            </p:NodeReference>
-            <Pin Id="RBeNq0LJapFNPxMX3SVsel" Name="Initial Transformation" Kind="InputPin" />
-            <Pin Id="UIGrQHNHF1fLuJJbTEIJsf" Name="Configuration" Kind="InputPin" />
-            <Pin Id="I3Y92aN6lUYOSu6RKxKQVj" Name="Inertia Parameters" Kind="InputPin" />
-            <Pin Id="T5UyFV4YW37QDyNudyvktE" Name="Paint" Kind="InputPin" />
-            <Pin Id="I057v2dxQZrMvFNiRrGdbE" Name="Enabled" Kind="InputPin" />
-            <Pin Id="PDGxABhbBTZLQxEHx6SuI1" Name="Output" Kind="OutputPin" />
-            <Pin Id="SSjh16XjNVqL6Iu0Iq5tKt" Name="Layer" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="679,318,185,19" Id="VHn6EdNYsyNPYjZrgwPeuM">
-            <p:NodeReference LastCategoryFullName="IO.Multitouch.Configurations" LastSymbolSource="VL.IO.Multitouch.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="ManipulationConfig" />
-            </p:NodeReference>
-            <Pin Id="FciOomlLDYuNvrGNlpPmPV" Name="Allow Translation in X" Kind="InputPin" />
-            <Pin Id="APKWuJobENMN3DyiYcRazZ" Name="Allow Translation in Y" Kind="InputPin" DefaultValue="True" />
-            <Pin Id="FoTiK66WbbbOO950KVyQ8y" Name="Enable Translation Inertia" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="F70gASthoIrQTeyTtG9ryP" Name="Allow Rotation" Kind="InputPin" />
-            <Pin Id="Pg1hOeKEcQxQUU013MLSbM" Name="Enable Rotation Inertia" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="BSGl3gOlvO3O19nkroQN04" Name="Allow Scaling" Kind="InputPin" DefaultValue="True" />
-            <Pin Id="Fa4lXNyYmsDOrJEIrsUOVu" Name="Enable Scaling Inertia" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="JYLPc2NCSnSNw6lNVr2CmF" Name="Enable Rails X" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="CpwqA5Q9PdLMfTbgQJGldy" Name="Enable Rails Y" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="LSHaZtnThNfLrszwYmKceT" Name="Enable Exact" Kind="InputPin" />
-            <Pin Id="DNutSp5FUwLN4d4hpspho6" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="680,357,65,26" Id="Kms9RUi6tdDPH1bEHwmcY7">
-            <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromValue" />
-              <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
-            </p:NodeReference>
-            <Pin Id="CsP9TMzbqSwMcqB1JRrIRr" Name="Input" Kind="InputPin" />
-            <Pin Id="Dh2BtMLeRdCPZnloizAv4A" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="660,449,65,26" Id="LpICGzzu6GTNqAvHNq1Qn4">
-            <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromValue" />
-              <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
-            </p:NodeReference>
-            <Pin Id="SF3kmhXAcELNfg3HcBwPrl" Name="Input" Kind="InputPin" />
-            <Pin Id="Sr9jdDxWD3qOpITYpC370I" Name="Result" Kind="OutputPin" />
-          </Node>
         </Canvas>
         <Patch Id="NNol3cf5PyINPnXrU467kF" Name="Create" />
         <Patch Id="LkWf5mTXaajLCYUZW1XekM" Name="Update" />
@@ -744,9 +696,6 @@
         <Link Id="E4rlakwLweUNQqXFx1Ow96" Ids="TmgkDUs3Dk2QFl1GsdsUAC,MDETlSvYpMSMsif5QKUPeP" />
         <Link Id="UaUz0OFYFDjNtHuBPFg5cx" Ids="FqAxaDWe23RO1E0SZixqV3,Au26A6GrFWVPERMNCy1d1u" />
         <Link Id="THngyZ0KanaMnxyw6SsxPu" Ids="I676XJ8M9NqL3ButVxmlKu,D2ikcH4WjT0O67V73K2LFh" />
-        <Link Id="EM6V3diJfaGM014Vwz4sJN" Ids="Dh2BtMLeRdCPZnloizAv4A,UIGrQHNHF1fLuJJbTEIJsf" />
-        <Link Id="FamkfgfJbi4QAWWAg14rkw" Ids="DNutSp5FUwLN4d4hpspho6,CsP9TMzbqSwMcqB1JRrIRr" />
-        <Link Id="OVtgYqLKr3tNc65reSZpij" Ids="PDGxABhbBTZLQxEHx6SuI1,SF3kmhXAcELNfg3HcBwPrl" />
         <Link Id="VrGKETinMfLLm60YpwtjJR" Ids="L97mQiZYqhRPEXu5EWlLRo,PlEp87V2f11LDYveBL9Gix" />
         <Link Id="CJwdEp09VygNIJbdvghFJ4" Ids="O4q5AjEDUCxOiSRvxBuUzS,QM0CSy10aMENkXb67idqWG" />
       </Patch>
